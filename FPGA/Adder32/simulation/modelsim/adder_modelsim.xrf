@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, D:/FPGA/Adder32/H_ADDER.bdf
+source_file = 1, D:/FPGA/Adder32/H_ADDER.vwf
+source_file = 1, D:/FPGA/Adder32/Waveform.vwf
+source_file = 1, D:/FPGA/Adder32/db/adder.cbx.xml
+design_name = H_ADDER
+instance = comp, \S~output , S~output, H_ADDER, 1
+instance = comp, \CO~output , CO~output, H_ADDER, 1
+instance = comp, \B~input , B~input, H_ADDER, 1
+instance = comp, \A~input , A~input, H_ADDER, 1
+instance = comp, \inst3~0 , inst3~0, H_ADDER, 1
